@@ -2,7 +2,6 @@
 <menu xmlns:tools="http://schemas.android.com/tools"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <!-- bottom_nav_menu.xml -->
     <item
         android:id="@+id/navigation_home"
         tools:ignore="MenuTitle"
@@ -10,9 +9,9 @@
 
     <item
         android:id="@+id/navigation_search"
-        tools:ignore="MenuTitle"
-        android:icon="@android:drawable/ic_menu_search" />
-
+        android:icon="@drawable/ic_search_24dp"
+        android:title="@string/title_search"
+        tools:ignore="MenuTitle" />
 
     <item
         android:id="@+id/navigation_camera"
@@ -20,8 +19,9 @@
         android:icon="@drawable/capture"/>
 
     <item
-        android:id="@+id/navigation_gallery"
-        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:id="@+id/navigation_map"
+        android:icon="@drawable/ic_map_24dp"
+        android:title="@string/title_map"
         tools:ignore="MenuTitle" />
 
     <item

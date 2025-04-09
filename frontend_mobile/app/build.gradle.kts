@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     id("kotlin-kapt")  // Add this for Glide
+    alias(libs.plugins.kotlin.compose)  // Compose Compiler
 }
 
 android {
@@ -73,6 +74,8 @@ dependencies {
 
     // Location services
     implementation(libs.play.services.location)
+    implementation(libs.play.services.maps)
+    implementation(libs.play.services.auth)
 
     // New dependencies for Gallery
     implementation(libs.androidx.recyclerview)
@@ -94,6 +97,12 @@ dependencies {
     //env
     implementation(libs.dotenv)
 //    implementation(libs.memtrack)
+    
+    // Cloudinary
+    implementation(libs.cloudinary.android)
+
+    // Networking
+    implementation(libs.okhttp)
 
     implementation (libs.androidx.compose.ui)
     implementation (libs.androidx.compose.material)
@@ -102,4 +111,7 @@ dependencies {
     implementation (libs.androidx.lifecycle.runtime.compose)
     implementation (libs.androidx.activity.compose)
 
+    // OpenStreetMap
+    implementation(libs.osmdroid.android)
+    implementation(libs.androidx.preference.ktx)
 }
