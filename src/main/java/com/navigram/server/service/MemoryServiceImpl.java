@@ -3,9 +3,11 @@ package com.navigram.server.service;
 import com.navigram.server.dto.CreateMemoryRequest;
 import com.navigram.server.dto.MemoryDto;
 import com.navigram.server.model.Memory;
+import com.navigram.server.model.MemoryUpvote;
 import com.navigram.server.model.User;
 import com.navigram.server.model.VisibilityType;
 import com.navigram.server.repository.MemoryRepository;
+import com.navigram.server.repository.MemoryUpvoteRepository;
 import com.navigram.server.repository.UserRepository;
 import com.navigram.server.util.DtoConverter;
 import jakarta.persistence.EntityNotFoundException;
@@ -34,15 +36,60 @@ public class MemoryServiceImpl implements MemoryService{
     private final UserRepository userRepository;
     private final DtoConverter dtoConverter;
     private final GeometryFactory geometryFactory;
+    private final MemoryUpvoteRepository memoryUpvoteRepository;
 
     public MemoryServiceImpl(
             MemoryRepository memoryRepository,
             UserRepository userRepository,
-            DtoConverter dtoConverter) {
+            DtoConverter dtoConverter,
+            MemoryUpvoteRepository memoryUpvoteRepository) {
         this.memoryRepository = memoryRepository;
         this.userRepository = userRepository;
         this.dtoConverter = dtoConverter;
         this.geometryFactory = new GeometryFactory(new PrecisionModel(), 4326);
+        this.memoryUpvoteRepository = memoryUpvoteRepository;
+    }
+
+    @Override
+    @Transactional
+    public void upvoteMemory(String memoryId, String username) {
+        Memory memory = memoryRepository.findById(memoryId)
+                .orElseThrow(() -> new EntityNotFoundException("Memory not found"));
+        User user = userRepository.findByUsername(username)
+                .orElseThrow(() -> new EntityNotFoundException("User not found"));
+
+        if (!hasUserUpvoted(memoryId, username)) {
+            MemoryUpvote upvote = new MemoryUpvote(memory, user);
+            memoryUpvoteRepository.save(upvote);
+            memory.setUpvoteCount(memory.getUpvoteCount() + 1);
+            memoryRepository.save(memory);
+        }
+    }
+
+    @Override
+    @Transactional(readOnly = true)
+    public boolean hasUserUpvoted(String memoryId, String username) {
+        Memory memory = memoryRepository.findById(memoryId)
+                .orElseThrow(() -> new EntityNotFoundException("Memory not found"));
+        User user = userRepository.findByUsername(username)
+                .orElseThrow(() -> new EntityNotFoundException("User not found"));
+
+        return memoryUpvoteRepository.existsByMemoryAndUser(memory, user);
+    }
+
+    @Override
+    @Transactional
+    public void removeUpvote(String memoryId, String username) {
+        Memory memory = memoryRepository.findById(memoryId)
+                .orElseThrow(() -> new EntityNotFoundException("Memory not found"));
+        User user = userRepository.findByUsername(username)
+                .orElseThrow(() -> new EntityNotFoundException("User not found"));
+
+        if (memoryUpvoteRepository.existsByMemoryAndUser(memory, user)) {
+            memoryUpvoteRepository.deleteByMemoryAndUser(memory, user);
+            memory.setUpvoteCount(Math.max(0, memory.getUpvoteCount() - 1));
+            memoryRepository.save(memory);
+        }
     }
 
     @Override
@@ -265,5 +312,17 @@ public class MemoryServiceImpl implements MemoryService{
 
         // Convert to meters
         return R * c * 1000;
+    }
+
+    @Override
+    @Transactional(readOnly = true)
+    public List<MemoryDto> getUserPublicMemories(String userId) {
+        User user = userRepository.findById(userId)
+                .orElseThrow(() -> new EntityNotFoundException("User not found"));
+
+        return memoryRepository.findByUser(user).stream()
+                .filter(memory -> memory.getVisibility() == VisibilityType.PUBLIC)
+                .map(dtoConverter::toDto)
+                .collect(Collectors.toList());
     }
 }

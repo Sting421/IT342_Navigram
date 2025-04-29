@@ -1,11 +1,13 @@
 package com.navigram.server.controller;
 
 import com.navigram.server.dto.UserDto;
+import com.navigram.server.model.Role;
 import com.navigram.server.service.UserService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.*;
 import java.time.LocalDateTime;
+import java.util.List;
 import java.util.Map;
 import java.util.HashMap;
 
@@ -20,7 +22,16 @@ public class UserController {
         this.userService = userService;
     }
 
-    @GetMapping("/{id}")
+@GetMapping("/all")
+public ResponseEntity<List<UserDto>> getAllUsers() {
+    List<UserDto> users = userService.getAllUsers();
+    List<UserDto> userRoleOnly = users.stream()
+            .filter(user -> user.getRole() == Role.USER)
+            .toList();
+    return ResponseEntity.ok(userRoleOnly);
+}
+
+@GetMapping("/{id}")
     public ResponseEntity<UserDto> getUserById(@PathVariable String id) {
         return ResponseEntity.ok(userService.getUserById(id));
     }
@@ -61,20 +72,51 @@ public class UserController {
     }
 
     @PostMapping("/{id}/follow")
-    public ResponseEntity<Void> followUser(
+    public ResponseEntity<Map<String, Object>> followUser(
             @PathVariable String id,
             Authentication authentication) {
         String currentUserId = userService.getUserByUsername(authentication.getName()).getId();
         userService.followUser(currentUserId, id);
-        return ResponseEntity.ok().build();
+        
+        Map<String, Object> response = new HashMap<>();
+        response.put("message", "Successfully followed user");
+        response.put("success", true);
+        return ResponseEntity.ok(response);
     }
 
     @PostMapping("/{id}/unfollow")
-    public ResponseEntity<Void> unfollowUser(
+    public ResponseEntity<Map<String, Object>> unfollowUser(
             @PathVariable String id,
             Authentication authentication) {
         String currentUserId = userService.getUserByUsername(authentication.getName()).getId();
         userService.unfollowUser(currentUserId, id);
-        return ResponseEntity.ok().build();
+        
+        Map<String, Object> response = new HashMap<>();
+        response.put("message", "Successfully unfollowed user");
+        response.put("success", true);
+        return ResponseEntity.ok(response);
+    }
+
+    @GetMapping("/following")
+    public ResponseEntity<Map<String, Object>> getFollowedUsers(Authentication authentication) {
+        String currentUserId = userService.getUserByUsername(authentication.getName()).getId();
+        List<UserDto> followedUsers = userService.getFollowedUsers(currentUserId);
+        
+        Map<String, Object> response = new HashMap<>();
+        response.put("message", "Successfully retrieved followed users");
+        response.put("data", followedUsers);
+        response.put("success", true);
+        return ResponseEntity.ok(response);
+    }
+
+    @GetMapping("/{id}/follow-counts")
+    public ResponseEntity<Map<String, Object>> getFollowCounts(@PathVariable String id) {
+        Map<String, Integer> counts = userService.getFollowCounts(id);
+        
+        Map<String, Object> response = new HashMap<>();
+        response.put("message", "Successfully retrieved follow counts");
+        response.put("data", counts);
+        response.put("success", true);
+        return ResponseEntity.ok(response);
     }
 }

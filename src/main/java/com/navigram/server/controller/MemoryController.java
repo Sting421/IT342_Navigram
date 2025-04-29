@@ -165,4 +165,44 @@ public class MemoryController {
         errorResponse.put("error", e.getMessage());
         return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(errorResponse);
     }
+
+    @PostMapping("/{id}/upvote")
+    @PreAuthorize("hasRole('USER')")
+    public ResponseEntity<Map<String, String>> upvoteMemory(
+            @PathVariable String id,
+            @AuthenticationPrincipal UserDetails userDetails) {
+        memoryService.upvoteMemory(id, userDetails.getUsername());
+        return ResponseEntity.ok(Map.of("message", "Memory upvoted successfully"));
+    }
+
+    @DeleteMapping("/{id}/upvote")
+    @PreAuthorize("hasRole('USER')")
+    public ResponseEntity<Map<String, String>> removeUpvote(
+            @PathVariable String id,
+            @AuthenticationPrincipal UserDetails userDetails) {
+        memoryService.removeUpvote(id, userDetails.getUsername());
+        return ResponseEntity.ok(Map.of("message", "Upvote removed successfully"));
+    }
+
+    @GetMapping("/{id}/has-upvoted")
+    @PreAuthorize("hasRole('USER')")
+    public ResponseEntity<Map<String, Boolean>> hasUserUpvoted(
+            @PathVariable String id,
+            @AuthenticationPrincipal UserDetails userDetails) {
+        boolean hasUpvoted = memoryService.hasUserUpvoted(id, userDetails.getUsername());
+        return ResponseEntity.ok(Map.of("hasUpvoted", hasUpvoted));
+    }
+
+    @GetMapping("/user/{userId}")
+    public ResponseEntity<List<MemoryDto>> getUserPublicMemories(@PathVariable String userId) {
+        try {
+            logger.info("Fetching public memories for user ID: {}", userId);
+            List<MemoryDto> memories = memoryService.getUserPublicMemories(userId);
+            logger.info("Found {} public memories for user {}", memories.size(), userId);
+            return ResponseEntity.ok(memories);
+        } catch (Exception e) {
+            logger.error("Error fetching public memories for user {}: {}", userId, e.getMessage(), e);
+            return ResponseEntity.ok(List.of()); // Return empty list instead of error
+        }
+    }
 }

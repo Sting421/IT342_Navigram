@@ -9,6 +9,7 @@ public class CommentDto {
     private String memoryId;
     private String userId;
     private String username;
+    private String profilePicture;
 
     @NotBlank(message = "Comment content is required")
     private String content;
@@ -46,6 +47,14 @@ public class CommentDto {
 
     public void setUsername(String username) {
         this.username = username;
+    }
+
+    public String getProfilePicture() {
+        return profilePicture;
+    }
+
+    public void setProfilePicture(String profilePicture) {
+        this.profilePicture = profilePicture;
     }
 
     public String getContent() {

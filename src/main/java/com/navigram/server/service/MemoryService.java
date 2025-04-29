@@ -35,4 +35,16 @@ public interface MemoryService {
 
     @Transactional
     void approveMemory(String memoryId);
+
+    @Transactional
+    void upvoteMemory(String memoryId, String username);
+
+    @Transactional(readOnly = true)
+    boolean hasUserUpvoted(String memoryId, String username);
+
+    @Transactional
+    void removeUpvote(String memoryId, String username);
+
+    @Transactional(readOnly = true)
+    List<MemoryDto> getUserPublicMemories(String userId);
 }

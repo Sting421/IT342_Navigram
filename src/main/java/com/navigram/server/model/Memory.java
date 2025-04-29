@@ -59,6 +59,9 @@ public class Memory {
     @OneToMany(mappedBy = "memory", cascade = CascadeType.ALL, orphanRemoval = true)
     private Set<Flag> flags = new HashSet<>();
 
+    @OneToMany(mappedBy = "memory", cascade = CascadeType.ALL, orphanRemoval = true)
+    private Set<MemoryUpvote> upvotes = new HashSet<>();
+
     @Column(name = "audio_url")
     private String audioUrl;
 
@@ -200,6 +203,14 @@ public class Memory {
 
     public void setFlags(Set<Flag> flags) {
         this.flags = flags;
+    }
+
+    public Set<MemoryUpvote> getUpvotes() {
+        return upvotes;
+    }
+
+    public void setUpvotes(Set<MemoryUpvote> upvotes) {
+        this.upvotes = upvotes;
     }
 
     public String getAudioUrl() {

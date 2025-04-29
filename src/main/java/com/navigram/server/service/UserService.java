@@ -338,6 +338,26 @@ public class UserService implements UserDetailsService {
         userRepository.save(user);
     }
 
+    @Transactional(readOnly = true)
+    public Map<String, Integer> getFollowCounts(String userId) {
+        User user = userRepository.findById(userId)
+                .orElseThrow(() -> new RuntimeException("User not found: " + userId));
+        
+        Map<String, Integer> counts = new HashMap<>();
+        counts.put("followers", user.getFollowers().size());
+        counts.put("following", user.getFollowing().size());
+        return counts;
+    }
+
+    @Transactional(readOnly = true)
+    public List<UserDto> getFollowedUsers(String userId) {
+        User user = userRepository.findById(userId)
+                .orElseThrow(() -> new RuntimeException("User not found: " + userId));
+        return user.getFollowing().stream()
+                .map(this::convertToDto)
+                .collect(Collectors.toList());
+    }
+
     private UserDto convertToDto(User user) {
         UserDto dto = new UserDto();
         dto.setId(user.getId());
