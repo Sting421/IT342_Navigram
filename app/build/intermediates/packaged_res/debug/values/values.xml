@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="media_types">
+        <item>Photo</item>
+        <item>Video</item>
+        <item>Audio</item>
+    </string-array>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="BaseURL">http://192.168.196.8:8080</string>
+    <string name="Create_acc">"Create one"</string>
+    <string name="Log_in">"Login"</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_sign_up">Sign up</string>
+    <string name="app_name">Navigram</string>
+    <string name="capture">Capture</string>
+    <string name="dont_have_account">"Don't have account?"</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="loadingImage">false</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="prompt_confirm_pass">Confirm Password</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_username">Username</string>
+    <string name="switch_camera">Front camera</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_home">Home</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="username">username</string>
+    <string name="welcome">"Welcome Back!"</string>
+    <style name="Base.Theme.Navigram" parent="Theme.Material3.DayNight">
+        
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        
+        
+    </style>
+    <style name="Theme.Navigram" parent="Base.Theme.Navigram"/>
+</resources>

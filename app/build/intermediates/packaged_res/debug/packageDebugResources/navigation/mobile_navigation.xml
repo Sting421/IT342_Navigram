@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.navigram.ui.dashboard.DashboardFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <activity
+        android:id="@+id/navigation_camera"
+        android:name="com.example.navigram.ui.CameraCapture"
+        android:label="Camera"
+        tools:layout="@layout/activity_camera_capture" />
+
+    <fragment
+        android:id="@+id/navigation_map"
+        android:name="com.example.navigram.ui.map.MapFragment"
+        android:label="@string/title_map"
+        tools:layout="@layout/fragment_map" />
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.example.navigram.ui.search.SearchFragment"
+        android:label="@string/title_search"
+        tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.navigram.ui.Profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/activity_profile">
+        <action
+            android:id="@+id/action_navigation_profile_to_memory_creation"
+            app:destination="@id/navigation_memory_creation"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_navigation_profile_to_loginActivity"
+            app:destination="@+id/loginActivity"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popUpTo="@id/mobile_navigation"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.example.navigram.ui.login.LoginActivity"
+        android:label="Login"
+        tools:layout="@layout/activity_login" />
+
+    <activity
+        android:id="@+id/navigation_memory_creation"
+        android:name="com.example.navigram.ui.CreateMemoryActivity"
+        android:label="Create Memory"
+        tools:layout="@layout/activity_create_memory" />
+</navigation>

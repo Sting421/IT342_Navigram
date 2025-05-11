@@ -1,0 +1,110 @@
+[
+    {
+        "merged": "com.example.navigram.app-mergeDebugResources-93:/layout/dialog_memory_details.xml",
+        "source": "com.example.navigram.app-main-96:/layout/dialog_memory_details.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-mergeDebugResources-93:/layout/activity_profile.xml",
+        "source": "com.example.navigram.app-main-96:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-mergeDebugResources-93:/layout/activity_create_memory.xml",
+        "source": "com.example.navigram.app-main-96:/layout/activity_create_memory.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-mergeDebugResources-93:/layout/dialog_edit_memory.xml",
+        "source": "com.example.navigram.app-main-96:/layout/dialog_edit_memory.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-mergeDebugResources-93:/layout/dialog_edit_profile.xml",
+        "source": "com.example.navigram.app-main-96:/layout/dialog_edit_profile.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-mergeDebugResources-93:/layout/fragment_map.xml",
+        "source": "com.example.navigram.app-main-96:/layout/fragment_map.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-mergeDebugResources-93:/layout/item_gallery.xml",
+        "source": "com.example.navigram.app-main-96:/layout/item_gallery.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-mergeDebugResources-93:/layout/item_user.xml",
+        "source": "com.example.navigram.app-main-96:/layout/item_user.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-mergeDebugResources-93:/layout/dialog_memory_cluster.xml",
+        "source": "com.example.navigram.app-main-96:/layout/dialog_memory_cluster.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-mergeDebugResources-93:/layout/item_comment.xml",
+        "source": "com.example.navigram.app-main-96:/layout/item_comment.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-mergeDebugResources-93:/layout/activity_main.xml",
+        "source": "com.example.navigram.app-main-96:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-mergeDebugResources-93:/layout/activity_camera_capture.xml",
+        "source": "com.example.navigram.app-main-96:/layout/activity_camera_capture.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-mergeDebugResources-93:/layout/item_cluster_memory.xml",
+        "source": "com.example.navigram.app-main-96:/layout/item_cluster_memory.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-mergeDebugResources-93:/layout/activity_gallery.xml",
+        "source": "com.example.navigram.app-main-96:/layout/activity_gallery.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-mergeDebugResources-93:/layout/fragment_dashboard.xml",
+        "source": "com.example.navigram.app-main-96:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-mergeDebugResources-93:/layout/activity_memory_creation.xml",
+        "source": "com.example.navigram.app-main-96:/layout/activity_memory_creation.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-mergeDebugResources-93:/layout/gallery_item.xml",
+        "source": "com.example.navigram.app-main-96:/layout/gallery_item.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-mergeDebugResources-93:/layout/item_story.xml",
+        "source": "com.example.navigram.app-main-96:/layout/item_story.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-mergeDebugResources-93:/layout/activity_user_details.xml",
+        "source": "com.example.navigram.app-main-96:/layout/activity_user_details.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-mergeDebugResources-93:/layout/fragment_search.xml",
+        "source": "com.example.navigram.app-main-96:/layout/fragment_search.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-mergeDebugResources-93:/layout/activity_login.xml",
+        "source": "com.example.navigram.app-main-96:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-mergeDebugResources-93:/layout/item_feed_post.xml",
+        "source": "com.example.navigram.app-main-96:/layout/item_feed_post.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-mergeDebugResources-93:/layout/activity_sign_up.xml",
+        "source": "com.example.navigram.app-main-96:/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-mergeDebugResources-93:/layout/dialog_image_picker.xml",
+        "source": "com.example.navigram.app-main-96:/layout/dialog_image_picker.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-mergeDebugResources-93:/layout/fragment_home.xml",
+        "source": "com.example.navigram.app-main-96:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-mergeDebugResources-93:/layout/fragment_notifications.xml",
+        "source": "com.example.navigram.app-main-96:/layout/fragment_notifications.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-mergeDebugResources-93:/layout/activity_dashboard.xml",
+        "source": "com.example.navigram.app-main-96:/layout/activity_dashboard.xml"
+    }
+]

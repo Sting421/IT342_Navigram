@@ -1,0 +1,81 @@
+com.example.navigram.app-customview-poolingcontainer-1.0.0-0 C:\Users\Sting\.gradle\caches\8.10.2\transforms\05e0bbe4a53f52c1573d594e7c7d9a1d\transformed\customview-poolingcontainer-1.0.0\res
+com.example.navigram.app-navigation-common-ktx-2.6.0-1 C:\Users\Sting\.gradle\caches\8.10.2\transforms\06f312a2ac60aa5cbcab0b2c236eb8db\transformed\navigation-common-ktx-2.6.0\res
+com.example.navigram.app-navigation-runtime-ktx-2.6.0-2 C:\Users\Sting\.gradle\caches\8.10.2\transforms\097a2493ab586f69c62cdccd23d78f9a\transformed\navigation-runtime-ktx-2.6.0\res
+com.example.navigram.app-navigation-fragment-ktx-2.6.0-3 C:\Users\Sting\.gradle\caches\8.10.2\transforms\09dae17f519e2d263df15bb740818e9d\transformed\navigation-fragment-ktx-2.6.0\res
+com.example.navigram.app-runtime-1.4.3-4 C:\Users\Sting\.gradle\caches\8.10.2\transforms\0b73d7df542f1977acd4d341b5000b6d\transformed\runtime-1.4.3\res
+com.example.navigram.app-glide-4.15.1-5 C:\Users\Sting\.gradle\caches\8.10.2\transforms\0dc2b19c38c22935824a93f7ffe03965\transformed\glide-4.15.1\res
+com.example.navigram.app-lifecycle-process-2.6.1-6 C:\Users\Sting\.gradle\caches\8.10.2\transforms\14896e5ee9765bca47fc8cb5ab5c5e1a\transformed\lifecycle-process-2.6.1\res
+com.example.navigram.app-navigation-common-2.6.0-7 C:\Users\Sting\.gradle\caches\8.10.2\transforms\18c1c00329c51d83356d8f483041e8ca\transformed\navigation-common-2.6.0\res
+com.example.navigram.app-material-1.9.0-8 C:\Users\Sting\.gradle\caches\8.10.2\transforms\29478473b98ddb2b002edf109c4b3b39\transformed\material-1.9.0\res
+com.example.navigram.app-camera-lifecycle-1.2.3-9 C:\Users\Sting\.gradle\caches\8.10.2\transforms\2a527d96e263e0fcd1c5a4dfaa4f946d\transformed\camera-lifecycle-1.2.3\res
+com.example.navigram.app-ui-util-1.4.3-10 C:\Users\Sting\.gradle\caches\8.10.2\transforms\2bedefb09ec50e738f929e56f0c430b4\transformed\ui-util-1.4.3\res
+com.example.navigram.app-activity-1.7.2-11 C:\Users\Sting\.gradle\caches\8.10.2\transforms\2c705084c5117aef12116b71254bb692\transformed\activity-1.7.2\res
+com.example.navigram.app-lifecycle-runtime-compose-2.6.1-12 C:\Users\Sting\.gradle\caches\8.10.2\transforms\2e2f328407aed792d384694ab597a6a0\transformed\lifecycle-runtime-compose-2.6.1\res
+com.example.navigram.app-viewpager2-1.0.0-13 C:\Users\Sting\.gradle\caches\8.10.2\transforms\2e916d539e4a2fdad88e2c20528b2631\transformed\viewpager2-1.0.0\res
+com.example.navigram.app-emoji2-1.3.0-14 C:\Users\Sting\.gradle\caches\8.10.2\transforms\32da3d3c49c92e0c6287b746dcce29de\transformed\emoji2-1.3.0\res
+com.example.navigram.app-profileinstaller-1.3.0-15 C:\Users\Sting\.gradle\caches\8.10.2\transforms\32ec73e7e2f0cc963b795ec635bd4c92\transformed\profileinstaller-1.3.0\res
+com.example.navigram.app-drawerlayout-1.1.1-16 C:\Users\Sting\.gradle\caches\8.10.2\transforms\3375c8b433ac5b763a0feed562e2b287\transformed\drawerlayout-1.1.1\res
+com.example.navigram.app-ui-1.4.3-17 C:\Users\Sting\.gradle\caches\8.10.2\transforms\3590718c6ad0550d3202a4420b9c8f2b\transformed\ui-1.4.3\res
+com.example.navigram.app-lifecycle-livedata-core-2.6.1-18 C:\Users\Sting\.gradle\caches\8.10.2\transforms\35a978920f8cf7639e7f2d8712fb3134\transformed\lifecycle-livedata-core-2.6.1\res
+com.example.navigram.app-savedstate-ktx-1.2.1-19 C:\Users\Sting\.gradle\caches\8.10.2\transforms\37e2a32ce4ba1191f996f98cc9c9ecbf\transformed\savedstate-ktx-1.2.1\res
+com.example.navigram.app-slidingpanelayout-1.2.0-20 C:\Users\Sting\.gradle\caches\8.10.2\transforms\385113bc71c6dccfe793b90b529c5e77\transformed\slidingpanelayout-1.2.0\res
+com.example.navigram.app-lifecycle-livedata-2.6.1-21 C:\Users\Sting\.gradle\caches\8.10.2\transforms\398e6cf207f4fbf129d7305f267f12f5\transformed\lifecycle-livedata-2.6.1\res
+com.example.navigram.app-foundation-1.4.3-22 C:\Users\Sting\.gradle\caches\8.10.2\transforms\3a97213a81eaeba082085de9f709c06d\transformed\foundation-1.4.3\res
+com.example.navigram.app-activity-ktx-1.7.2-23 C:\Users\Sting\.gradle\caches\8.10.2\transforms\3b9e85906b3e878c27af1b2aa62ec558\transformed\activity-ktx-1.7.2\res
+com.example.navigram.app-navigation-runtime-2.6.0-24 C:\Users\Sting\.gradle\caches\8.10.2\transforms\3f5ebe37afe3f6b338fe38a4d5ff1d2e\transformed\navigation-runtime-2.6.0\res
+com.example.navigram.app-fragment-ktx-1.6.1-25 C:\Users\Sting\.gradle\caches\8.10.2\transforms\44212c00306eef0c2e875407a36836b6\transformed\fragment-ktx-1.6.1\res
+com.example.navigram.app-transition-1.4.1-26 C:\Users\Sting\.gradle\caches\8.10.2\transforms\44f703d80c2ca76171ebff1a95e06ee1\transformed\transition-1.4.1\res
+com.example.navigram.app-lifecycle-viewmodel-savedstate-2.6.1-27 C:\Users\Sting\.gradle\caches\8.10.2\transforms\4ba65bbfd6aaae80c859c69045291611\transformed\lifecycle-viewmodel-savedstate-2.6.1\res
+com.example.navigram.app-appcompat-1.6.1-28 C:\Users\Sting\.gradle\caches\8.10.2\transforms\500a889a46d7267674899f3f251bfd5b\transformed\appcompat-1.6.1\res
+com.example.navigram.app-cardview-1.0.0-29 C:\Users\Sting\.gradle\caches\8.10.2\transforms\50b410c3aaf70253b6a8bbf8e7457ae6\transformed\cardview-1.0.0\res
+com.example.navigram.app-material-icons-core-1.4.3-30 C:\Users\Sting\.gradle\caches\8.10.2\transforms\5cb39d846f5c88c92c4d4225f0af53a3\transformed\material-icons-core-1.4.3\res
+com.example.navigram.app-annotation-experimental-1.3.0-31 C:\Users\Sting\.gradle\caches\8.10.2\transforms\5d33ec7e0ad8bca8b445530cf4e8547e\transformed\annotation-experimental-1.3.0\res
+com.example.navigram.app-appcompat-resources-1.6.1-32 C:\Users\Sting\.gradle\caches\8.10.2\transforms\6485fe1b843077e751d734a5cc175b14\transformed\appcompat-resources-1.6.1\res
+com.example.navigram.app-camera-view-1.2.3-33 C:\Users\Sting\.gradle\caches\8.10.2\transforms\64f450bdb1142d74118c498abb49b416\transformed\camera-view-1.2.3\res
+com.example.navigram.app-ui-tooling-preview-1.4.3-34 C:\Users\Sting\.gradle\caches\8.10.2\transforms\6cbd0066f528009e02f60753016b1c37\transformed\ui-tooling-preview-1.4.3\res
+com.example.navigram.app-core-runtime-2.2.0-35 C:\Users\Sting\.gradle\caches\8.10.2\transforms\6d70e464ad647e0a5d040cbd925e2394\transformed\core-runtime-2.2.0\res
+com.example.navigram.app-runtime-saveable-1.4.3-36 C:\Users\Sting\.gradle\caches\8.10.2\transforms\6dd42dae35d0444ba7189fb6df526a83\transformed\runtime-saveable-1.4.3\res
+com.example.navigram.app-coordinatorlayout-1.1.0-37 C:\Users\Sting\.gradle\caches\8.10.2\transforms\6f9b4283784e47e6c5a55a5808dce09c\transformed\coordinatorlayout-1.1.0\res
+com.example.navigram.app-lifecycle-viewmodel-2.6.1-38 C:\Users\Sting\.gradle\caches\8.10.2\transforms\704cb893df73171e75f0ab165d2f5b75\transformed\lifecycle-viewmodel-2.6.1\res
+com.example.navigram.app-material-1.4.3-39 C:\Users\Sting\.gradle\caches\8.10.2\transforms\7b813f6725548c90a920f7afb4910a2f\transformed\material-1.4.3\res
+com.example.navigram.app-fragment-1.6.1-40 C:\Users\Sting\.gradle\caches\8.10.2\transforms\7cd4572cd80ccfa301f301d8af735228\transformed\fragment-1.6.1\res
+com.example.navigram.app-play-services-basement-18.1.0-41 C:\Users\Sting\.gradle\caches\8.10.2\transforms\837418113e50e7c37882113941363b20\transformed\play-services-basement-18.1.0\res
+com.example.navigram.app-navigation-ui-2.6.0-42 C:\Users\Sting\.gradle\caches\8.10.2\transforms\8714f6b2fa9648588063ff977f8d7d91\transformed\navigation-ui-2.6.0\res
+com.example.navigram.app-play-services-maps-18.1.0-43 C:\Users\Sting\.gradle\caches\8.10.2\transforms\8d7e7572bbed0a08790418683b32eb8e\transformed\play-services-maps-18.1.0\res
+com.example.navigram.app-foundation-layout-1.4.3-44 C:\Users\Sting\.gradle\caches\8.10.2\transforms\8f844d70c00663ed2ee3a82eac3703a6\transformed\foundation-layout-1.4.3\res
+com.example.navigram.app-ui-graphics-1.4.3-45 C:\Users\Sting\.gradle\caches\8.10.2\transforms\9018864e52eb187011ff44ad8f2be719\transformed\ui-graphics-1.4.3\res
+com.example.navigram.app-startup-runtime-1.1.1-46 C:\Users\Sting\.gradle\caches\8.10.2\transforms\917c9155188d061a099991184b94eca5\transformed\startup-runtime-1.1.1\res
+com.example.navigram.app-core-ktx-1.10.0-47 C:\Users\Sting\.gradle\caches\8.10.2\transforms\91fb70f6cb9c48d00bde88f5e0f4636e\transformed\core-ktx-1.10.0\res
+com.example.navigram.app-navigation-ui-ktx-2.6.0-48 C:\Users\Sting\.gradle\caches\8.10.2\transforms\9a12d32fcbfa6287406cfa3c30ae7c67\transformed\navigation-ui-ktx-2.6.0\res
+com.example.navigram.app-ui-tooling-1.4.3-49 C:\Users\Sting\.gradle\caches\8.10.2\transforms\9cc899673b12dc8bb605b9e56a2a58ae\transformed\ui-tooling-1.4.3\res
+com.example.navigram.app-play-services-base-18.1.0-50 C:\Users\Sting\.gradle\caches\8.10.2\transforms\a5c50a772f8c1f01c84c3799c2b4082a\transformed\play-services-base-18.1.0\res
+com.example.navigram.app-animation-core-1.4.3-51 C:\Users\Sting\.gradle\caches\8.10.2\transforms\abd5288c9ad1bdaf3684d22e5a4dbd98\transformed\animation-core-1.4.3\res
+com.example.navigram.app-lifecycle-livedata-core-ktx-2.6.1-52 C:\Users\Sting\.gradle\caches\8.10.2\transforms\ad28591aba9641a6cf9d120b1c35559c\transformed\lifecycle-livedata-core-ktx-2.6.1\res
+com.example.navigram.app-ui-tooling-data-1.4.3-53 C:\Users\Sting\.gradle\caches\8.10.2\transforms\ae2f8a31fe27e787834a17afed4a8a73\transformed\ui-tooling-data-1.4.3\res
+com.example.navigram.app-activity-compose-1.7.2-54 C:\Users\Sting\.gradle\caches\8.10.2\transforms\b0e9ec7ff05b04632e8e146e97d2e7a1\transformed\activity-compose-1.7.2\res
+com.example.navigram.app-ui-unit-1.4.3-55 C:\Users\Sting\.gradle\caches\8.10.2\transforms\b2540fb3f074d45ea3cd5e52e1f357be\transformed\ui-unit-1.4.3\res
+com.example.navigram.app-ui-text-1.4.3-56 C:\Users\Sting\.gradle\caches\8.10.2\transforms\b2f35ba9f1007cb9ffc8475f04ef2dc8\transformed\ui-text-1.4.3\res
+com.example.navigram.app-lifecycle-runtime-ktx-2.6.1-57 C:\Users\Sting\.gradle\caches\8.10.2\transforms\c09977e4b83b7eec7356bc6ba3b94a14\transformed\lifecycle-runtime-ktx-2.6.1\res
+com.example.navigram.app-lifecycle-livedata-ktx-2.6.1-58 C:\Users\Sting\.gradle\caches\8.10.2\transforms\c227ea6a6776c930a24a2796a960aed3\transformed\lifecycle-livedata-ktx-2.6.1\res
+com.example.navigram.app-core-1.10.0-59 C:\Users\Sting\.gradle\caches\8.10.2\transforms\cf8d42d7b5ecc5d373bae695ce93cecf\transformed\core-1.10.0\res
+com.example.navigram.app-window-1.0.0-60 C:\Users\Sting\.gradle\caches\8.10.2\transforms\d366d30dce38eb5b82d4bbc5c350be07\transformed\window-1.0.0\res
+com.example.navigram.app-camera-core-1.2.3-61 C:\Users\Sting\.gradle\caches\8.10.2\transforms\d92ad90ea575833b0d5f13fe4a348dc8\transformed\camera-core-1.2.3\res
+com.example.navigram.app-ui-geometry-1.4.3-62 C:\Users\Sting\.gradle\caches\8.10.2\transforms\dada394cf055d44dcf970e5792ce06b1\transformed\ui-geometry-1.4.3\res
+com.example.navigram.app-animation-1.4.3-63 C:\Users\Sting\.gradle\caches\8.10.2\transforms\def781ac9cc25ecebbb5d767ff3299ba\transformed\animation-1.4.3\res
+com.example.navigram.app-security-crypto-1.1.0-alpha06-64 C:\Users\Sting\.gradle\caches\8.10.2\transforms\e3b3bdfbbdc0ee8ace8820488d24c568\transformed\security-crypto-1.1.0-alpha06\res
+com.example.navigram.app-lifecycle-viewmodel-ktx-2.6.1-65 C:\Users\Sting\.gradle\caches\8.10.2\transforms\e50e0b677548889e6b0f7f35dbe8f4ab\transformed\lifecycle-viewmodel-ktx-2.6.1\res
+com.example.navigram.app-emoji2-views-helper-1.3.0-66 C:\Users\Sting\.gradle\caches\8.10.2\transforms\e7f7e766899d892a3477dd9280ff76ef\transformed\emoji2-views-helper-1.3.0\res
+com.example.navigram.app-material-ripple-1.4.3-67 C:\Users\Sting\.gradle\caches\8.10.2\transforms\e8498e0f04fdc200da5becec3948ca57\transformed\material-ripple-1.4.3\res
+com.example.navigram.app-navigation-fragment-2.6.0-68 C:\Users\Sting\.gradle\caches\8.10.2\transforms\ed3b2f80c24f289455efb08f799938d6\transformed\navigation-fragment-2.6.0\res
+com.example.navigram.app-savedstate-1.2.1-69 C:\Users\Sting\.gradle\caches\8.10.2\transforms\f3ffc908fb89614b3b9dd77e8ec25e62\transformed\savedstate-1.2.1\res
+com.example.navigram.app-recyclerview-1.3.0-70 C:\Users\Sting\.gradle\caches\8.10.2\transforms\f8a316b6f7313a91f965a49155ba7b3d\transformed\recyclerview-1.3.0\res
+com.example.navigram.app-camera-camera2-1.2.3-71 C:\Users\Sting\.gradle\caches\8.10.2\transforms\fa8152716d2fdfe49aaec21d3a30fc26\transformed\camera-camera2-1.2.3\res
+com.example.navigram.app-lifecycle-runtime-2.6.1-72 C:\Users\Sting\.gradle\caches\8.10.2\transforms\fea08e8f7861e8163ca5b18029c51b44\transformed\lifecycle-runtime-2.6.1\res
+com.example.navigram.app-constraintlayout-2.1.4-73 C:\Users\Sting\.gradle\caches\8.10.2\transforms\fee790f296324f617101f2079cad0191\transformed\constraintlayout-2.1.4\res
+com.example.navigram.app-pngs-74 D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\build\generated\res\pngs\debug
+com.example.navigram.app-resValues-75 D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\build\generated\res\resValues\debug
+com.example.navigram.app-packageDebugResources-76 D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.navigram.app-packageDebugResources-77 D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.navigram.app-merged_res-78 D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\build\intermediates\merged_res\debug
+com.example.navigram.app-debug-79 D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\debug\res
+com.example.navigram.app-main-80 D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\res

@@ -1,0 +1,354 @@
+[
+    {
+        "merged": "com.example.navigram.app-debug-94:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.navigram.app-main-96:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.navigram.app-main-96:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.navigram.app-main-96:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/drawable_ic_share.xml.flat",
+        "source": "com.example.navigram.app-main-96:/drawable/ic_share.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/drawable_ic_more_vert.xml.flat",
+        "source": "com.example.navigram.app-main-96:/drawable/ic_more_vert.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/drawable_profile_placeholder.xml.flat",
+        "source": "com.example.navigram.app-main-96:/drawable/profile_placeholder.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/navigation_mobile_navigation.xml.flat",
+        "source": "com.example.navigram.app-main-96:/navigation/mobile_navigation.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/layout_item_user.xml.flat",
+        "source": "com.example.navigram.app-main-96:/layout/item_user.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/drawable_ic_comment.xml.flat",
+        "source": "com.example.navigram.app-main-96:/drawable/ic_comment.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/layout_item_feed_post.xml.flat",
+        "source": "com.example.navigram.app-main-96:/layout/item_feed_post.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/layout-w936dp_activity_login.xml.flat",
+        "source": "com.example.navigram.app-main-96:/layout-w936dp/activity_login.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/drawable_ic_phone.xml.flat",
+        "source": "com.example.navigram.app-main-96:/drawable/ic_phone.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/drawable_capture.png.flat",
+        "source": "com.example.navigram.app-main-96:/drawable/capture.png"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/layout_activity_dashboard.xml.flat",
+        "source": "com.example.navigram.app-main-96:/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/drawable_ic_map_24dp.xml.flat",
+        "source": "com.example.navigram.app-main-96:/drawable/ic_map_24dp.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.navigram.app-main-96:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/drawable_continueguest.png.flat",
+        "source": "com.example.navigram.app-main-96:/drawable/continueguest.png"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/layout_dialog_image_picker.xml.flat",
+        "source": "com.example.navigram.app-main-96:/layout/dialog_image_picker.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/layout_activity_gallery.xml.flat",
+        "source": "com.example.navigram.app-main-96:/layout/activity_gallery.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/menu_memory_options_menu.xml.flat",
+        "source": "com.example.navigram.app-main-96:/menu/memory_options_menu.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.navigram.app-main-96:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/drawable_ic_person.xml.flat",
+        "source": "com.example.navigram.app-main-96:/drawable/ic_person.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/layout_item_story.xml.flat",
+        "source": "com.example.navigram.app-main-96:/layout/item_story.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/drawable_black.png.flat",
+        "source": "com.example.navigram.app-main-96:/drawable/black.png"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/drawable_bgpurple.png.flat",
+        "source": "com.example.navigram.app-main-96:/drawable/bgpurple.png"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/layout_activity_user_details.xml.flat",
+        "source": "com.example.navigram.app-main-96:/layout/activity_user_details.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/layout-land_activity_profile.xml.flat",
+        "source": "com.example.navigram.app-main-96:/layout-land/activity_profile.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.navigram.app-main-96:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/drawable_ic_dashboard_black_24dp.xml.flat",
+        "source": "com.example.navigram.app-main-96:/drawable/ic_dashboard_black_24dp.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/layout_activity_memory_creation.xml.flat",
+        "source": "com.example.navigram.app-main-96:/layout/activity_memory_creation.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/layout_dialog_edit_memory.xml.flat",
+        "source": "com.example.navigram.app-main-96:/layout/dialog_edit_memory.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/drawable_dialog_background.xml.flat",
+        "source": "com.example.navigram.app-main-96:/drawable/dialog_background.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/xml_backup_rules.xml.flat",
+        "source": "com.example.navigram.app-main-96:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.navigram.app-main-96:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/layout_fragment_home.xml.flat",
+        "source": "com.example.navigram.app-main-96:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/drawable_mappin2.png.flat",
+        "source": "com.example.navigram.app-main-96:/drawable/mappin2.png"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/layout_activity_main.xml.flat",
+        "source": "com.example.navigram.app-main-96:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/drawable_flashoff.png.flat",
+        "source": "com.example.navigram.app-main-96:/drawable/flashoff.png"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "com.example.navigram.app-main-96:/mipmap-anydpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "com.example.navigram.app-main-96:/mipmap-anydpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/layout_activity_login.xml.flat",
+        "source": "com.example.navigram.app-main-96:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/layout_activity_sign_up.xml.flat",
+        "source": "com.example.navigram.app-main-96:/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/drawable_ic_close.xml.flat",
+        "source": "com.example.navigram.app-main-96:/drawable/ic_close.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/layout_dialog_edit_profile.xml.flat",
+        "source": "com.example.navigram.app-main-96:/layout/dialog_edit_profile.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.example.navigram.app-main-96:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/drawable_white.png.flat",
+        "source": "com.example.navigram.app-main-96:/drawable/white.png"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.navigram.app-main-96:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/drawable_continuegoogle.png.flat",
+        "source": "com.example.navigram.app-main-96:/drawable/continuegoogle.png"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/layout_activity_camera_capture.xml.flat",
+        "source": "com.example.navigram.app-main-96:/layout/activity_camera_capture.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/layout_fragment_map.xml.flat",
+        "source": "com.example.navigram.app-main-96:/layout/fragment_map.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/drawable_resource_switch.png.flat",
+        "source": "com.example.navigram.app-main-96:/drawable/resource_switch.png"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/drawable_ic_camera.xml.flat",
+        "source": "com.example.navigram.app-main-96:/drawable/ic_camera.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.navigram.app-main-96:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/drawable_ic_home_black_24dp.xml.flat",
+        "source": "com.example.navigram.app-main-96:/drawable/ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/drawable_ic_like.xml.flat",
+        "source": "com.example.navigram.app-main-96:/drawable/ic_like.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/layout_gallery_item.xml.flat",
+        "source": "com.example.navigram.app-main-96:/layout/gallery_item.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/layout_item_cluster_memory.xml.flat",
+        "source": "com.example.navigram.app-main-96:/layout/item_cluster_memory.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/drawable_ic_create_memory.xml.flat",
+        "source": "com.example.navigram.app-main-96:/drawable/ic_create_memory.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/drawable_navigramlogo.png.flat",
+        "source": "com.example.navigram.app-main-96:/drawable/navigramlogo.png"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/drawable_mappin.png.flat",
+        "source": "com.example.navigram.app-main-96:/drawable/mappin.png"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.navigram.app-main-96:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/layout_fragment_search.xml.flat",
+        "source": "com.example.navigram.app-main-96:/layout/fragment_search.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/drawable_ic_search_24dp.xml.flat",
+        "source": "com.example.navigram.app-main-96:/drawable/ic_search_24dp.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/layout_dialog_memory_details.xml.flat",
+        "source": "com.example.navigram.app-main-96:/layout/dialog_memory_details.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.navigram.app-main-96:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/drawable_ic_email.xml.flat",
+        "source": "com.example.navigram.app-main-96:/drawable/ic_email.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/drawable_ic_notifications_black_24dp.xml.flat",
+        "source": "com.example.navigram.app-main-96:/drawable/ic_notifications_black_24dp.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/drawable_ic_alternate_email.xml.flat",
+        "source": "com.example.navigram.app-main-96:/drawable/ic_alternate_email.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/layout_fragment_notifications.xml.flat",
+        "source": "com.example.navigram.app-main-96:/layout/fragment_notifications.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/layout_item_gallery.xml.flat",
+        "source": "com.example.navigram.app-main-96:/layout/item_gallery.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/drawable_edit_text_border.xml.flat",
+        "source": "com.example.navigram.app-main-96:/drawable/edit_text_border.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/drawable_flashon.png.flat",
+        "source": "com.example.navigram.app-main-96:/drawable/flashon.png"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/color_nav_item_selector.xml.flat",
+        "source": "com.example.navigram.app-main-96:/color/nav_item_selector.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/layout_fragment_dashboard.xml.flat",
+        "source": "com.example.navigram.app-main-96:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/drawable_rounded_image.xml.flat",
+        "source": "com.example.navigram.app-main-96:/drawable/rounded_image.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/drawable_ic_send.xml.flat",
+        "source": "com.example.navigram.app-main-96:/drawable/ic_send.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/drawable_ic_calendar.xml.flat",
+        "source": "com.example.navigram.app-main-96:/drawable/ic_calendar.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.navigram.app-main-96:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/layout_activity_profile.xml.flat",
+        "source": "com.example.navigram.app-main-96:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/layout_dialog_memory_cluster.xml.flat",
+        "source": "com.example.navigram.app-main-96:/layout/dialog_memory_cluster.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/xml_network_security_config.xml.flat",
+        "source": "com.example.navigram.app-main-96:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/layout-w1240dp_activity_login.xml.flat",
+        "source": "com.example.navigram.app-main-96:/layout-w1240dp/activity_login.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.navigram.app-main-96:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/layout_activity_create_memory.xml.flat",
+        "source": "com.example.navigram.app-main-96:/layout/activity_create_memory.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/drawable_focus.png.flat",
+        "source": "com.example.navigram.app-main-96:/drawable/focus.png"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/layout_item_comment.xml.flat",
+        "source": "com.example.navigram.app-main-96:/layout/item_comment.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/drawable_ic_like_filled.xml.flat",
+        "source": "com.example.navigram.app-main-96:/drawable/ic_like_filled.xml"
+    },
+    {
+        "merged": "com.example.navigram.app-debug-94:/drawable_ic_location.xml.flat",
+        "source": "com.example.navigram.app-main-96:/drawable/ic_location.xml"
+    }
+]

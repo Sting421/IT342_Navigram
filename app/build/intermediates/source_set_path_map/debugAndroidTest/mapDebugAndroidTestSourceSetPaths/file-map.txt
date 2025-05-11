@@ -1,0 +1,6 @@
+com.example.navigram.test.app-tracing-1.2.0-0 C:\Users\Sting\.gradle\caches\8.10.2\transforms\8810ae65577e4b43bdfc320ac9bcebc4\transformed\tracing-1.2.0\res
+com.example.navigram.test.app-core-1.6.1-1 C:\Users\Sting\.gradle\caches\8.10.2\transforms\e58769a46572d7cf1dbfb49fb08394a7\transformed\core-1.6.1\res
+com.example.navigram.test.app-androidTest-2 D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\build\generated\res\resValues\androidTest\debug
+com.example.navigram.test.app-mergeDebugAndroidTestResources-3 D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.navigram.test.app-mergeDebugAndroidTestResources-4 D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.navigram.test.app-debugAndroidTest-5 D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

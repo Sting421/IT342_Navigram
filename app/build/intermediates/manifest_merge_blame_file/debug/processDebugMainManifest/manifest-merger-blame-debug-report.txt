@@ -1,0 +1,646 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.navigram"
+4    android:versionCode="1"
+5    android:versionName="1.01" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="27"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-feature
+11-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:6:5-8:36
+12        android:name="android.hardware.camera"
+12-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:7:9-47
+13        android:required="false" />
+13-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:8:9-33
+14
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:10:5-79
+15-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:10:22-76
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:11:5-67
+16-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:11:22-64
+17    <uses-permission android:name="android.permission.CAMERA" />
+17-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:12:5-65
+17-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:12:22-62
+18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+18-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:13:5-79
+18-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:13:22-76
+19    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+19-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:14:5-81
+19-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:14:22-78
+20    <uses-permission
+20-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:15:5-108
+21        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+21-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:15:22-78
+22        android:maxSdkVersion="29" />
+22-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:15:79-105
+23    <uses-permission
+23-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:16:5-107
+24        android:name="android.permission.READ_EXTERNAL_STORAGE"
+24-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:16:22-77
+25        android:maxSdkVersion="32" />
+25-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:16:78-104
+26    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+26-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:17:5-76
+26-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:17:22-73
+27
+28    <uses-feature
+28-->[com.google.android.gms:play-services-maps:19.1.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\222bdf071a9fe92bc34cb513c1004afe\transformed\play-services-maps-19.1.0\AndroidManifest.xml:22:5-24:33
+29        android:glEsVersion="0x00020000"
+29-->[com.google.android.gms:play-services-maps:19.1.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\222bdf071a9fe92bc34cb513c1004afe\transformed\play-services-maps-19.1.0\AndroidManifest.xml:23:8-40
+30        android:required="true" />
+30-->[com.google.android.gms:play-services-maps:19.1.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\222bdf071a9fe92bc34cb513c1004afe\transformed\play-services-maps-19.1.0\AndroidManifest.xml:24:8-31
+31
+32    <queries>
+32-->[com.google.android.gms:play-services-maps:19.1.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\222bdf071a9fe92bc34cb513c1004afe\transformed\play-services-maps-19.1.0\AndroidManifest.xml:27:5-30:15
+33
+34        <!-- Needs to be explicitly declared on Android R+ -->
+35        <package android:name="com.google.android.apps.maps" />
+35-->[com.google.android.gms:play-services-maps:19.1.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\222bdf071a9fe92bc34cb513c1004afe\transformed\play-services-maps-19.1.0\AndroidManifest.xml:29:7-61
+35-->[com.google.android.gms:play-services-maps:19.1.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\222bdf071a9fe92bc34cb513c1004afe\transformed\play-services-maps-19.1.0\AndroidManifest.xml:29:16-59
+36    </queries>
+37
+38    <uses-permission android:name="android.permission.WAKE_LOCK" />
+38-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:25:5-68
+38-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:25:22-65
+39    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+39-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:27:5-81
+39-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:27:22-78
+40    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+40-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:28:5-77
+40-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:28:22-74
+41
+42    <permission
+42-->[androidx.core:core:1.15.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\9318f4e4febb68fd4d925789f74e6e8f\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+43        android:name="com.example.navigram.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+43-->[androidx.core:core:1.15.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\9318f4e4febb68fd4d925789f74e6e8f\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+44        android:protectionLevel="signature" />
+44-->[androidx.core:core:1.15.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\9318f4e4febb68fd4d925789f74e6e8f\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+45
+46    <uses-permission android:name="com.example.navigram.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+46-->[androidx.core:core:1.15.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\9318f4e4febb68fd4d925789f74e6e8f\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+46-->[androidx.core:core:1.15.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\9318f4e4febb68fd4d925789f74e6e8f\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+47
+48    <supports-screens
+48-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\Sting\.gradle\caches\8.10.2\transforms\57c3fe93933136d1b3fffcfed079ca14\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:9:5-12:40
+49        android:anyDensity="true"
+49-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\Sting\.gradle\caches\8.10.2\transforms\57c3fe93933136d1b3fffcfed079ca14\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:10:9-34
+50        android:largeScreens="true"
+50-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\Sting\.gradle\caches\8.10.2\transforms\57c3fe93933136d1b3fffcfed079ca14\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:11:9-36
+51        android:normalScreens="true" />
+51-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\Sting\.gradle\caches\8.10.2\transforms\57c3fe93933136d1b3fffcfed079ca14\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:12:9-37
+52
+53    <uses-feature
+53-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\Sting\.gradle\caches\8.10.2\transforms\57c3fe93933136d1b3fffcfed079ca14\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:14:5-16:36
+54        android:name="android.hardware.location.network"
+54-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\Sting\.gradle\caches\8.10.2\transforms\57c3fe93933136d1b3fffcfed079ca14\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:15:9-57
+55        android:required="false" />
+55-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\Sting\.gradle\caches\8.10.2\transforms\57c3fe93933136d1b3fffcfed079ca14\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:16:9-33
+56    <uses-feature
+56-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\Sting\.gradle\caches\8.10.2\transforms\57c3fe93933136d1b3fffcfed079ca14\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:17:5-19:36
+57        android:name="android.hardware.location.gps"
+57-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\Sting\.gradle\caches\8.10.2\transforms\57c3fe93933136d1b3fffcfed079ca14\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:18:9-53
+58        android:required="false" />
+58-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\Sting\.gradle\caches\8.10.2\transforms\57c3fe93933136d1b3fffcfed079ca14\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:19:9-33
+59    <uses-feature
+59-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\Sting\.gradle\caches\8.10.2\transforms\57c3fe93933136d1b3fffcfed079ca14\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:20:5-22:36
+60        android:name="android.hardware.telephony"
+60-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\Sting\.gradle\caches\8.10.2\transforms\57c3fe93933136d1b3fffcfed079ca14\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:21:9-50
+61        android:required="false" />
+61-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\Sting\.gradle\caches\8.10.2\transforms\57c3fe93933136d1b3fffcfed079ca14\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:22:9-33
+62    <uses-feature
+62-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\Sting\.gradle\caches\8.10.2\transforms\57c3fe93933136d1b3fffcfed079ca14\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:23:5-25:36
+63        android:name="android.hardware.wifi"
+63-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\Sting\.gradle\caches\8.10.2\transforms\57c3fe93933136d1b3fffcfed079ca14\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:24:9-45
+64        android:required="false" />
+64-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\Sting\.gradle\caches\8.10.2\transforms\57c3fe93933136d1b3fffcfed079ca14\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:25:9-33
+65
+66    <application
+66-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:19:5-119:19
+67        android:name="com.example.navigram.NavigramApplication"
+67-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:20:9-64
+68        android:allowBackup="true"
+68-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:21:9-35
+69        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+69-->[androidx.core:core:1.15.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\9318f4e4febb68fd4d925789f74e6e8f\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
+70        android:dataExtractionRules="@xml/data_extraction_rules"
+70-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:22:9-65
+71        android:debuggable="true"
+72        android:extractNativeLibs="false"
+73        android:fullBackupContent="@xml/backup_rules"
+73-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:23:9-54
+74        android:icon="@drawable/navigramlogo"
+74-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:24:9-46
+75        android:label="@string/app_name"
+75-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:25:9-41
+76        android:networkSecurityConfig="@xml/network_security_config"
+76-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:29:9-69
+77        android:roundIcon="@drawable/navigramlogo"
+77-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:26:9-51
+78        android:supportsRtl="true"
+78-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:27:9-35
+79        android:theme="@style/Theme.Navigram"
+79-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:28:9-46
+80        android:usesCleartextTraffic="true" >
+80-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:30:9-44
+81
+82        <!-- Google Sign-In Configuration -->
+83        <meta-data
+83-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:34:9-36:69
+84            android:name="com.google.android.gms.version"
+84-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:35:13-58
+85            android:value="@integer/google_play_services_version" />
+85-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:36:13-66
+86
+87        <activity
+87-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:38:9-54:20
+88            android:name="com.example.navigram.ui.login.LoginActivity"
+88-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:39:13-51
+89            android:exported="true"
+89-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:40:13-36
+90            android:label="@string/title_activity_login"
+90-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:41:13-57
+91            android:launchMode="singleTask" >
+91-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:42:13-44
+92            <intent-filter>
+92-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:43:13-50:29
+93                <action android:name="android.intent.action.VIEW" />
+93-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:44:17-69
+93-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:44:25-66
+94
+95                <category android:name="android.intent.category.DEFAULT" />
+95-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:45:17-76
+95-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:45:27-73
+96                <category android:name="android.intent.category.BROWSABLE" />
+96-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:46:17-78
+96-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:46:27-75
+97
+98                <data
+98-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:47:17-49:68
+99                    android:path="@string/google_oauth_redirect"
+99-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:49:21-65
+100                    android:scheme="@string/google_oauth_scheme" />
+100-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:48:21-65
+101            </intent-filter>
+102            <intent-filter>
+102-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:51:13-53:29
+103                <action android:name="android.intent.action.MAIN" />
+103-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:52:17-69
+103-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:52:25-66
+104            </intent-filter>
+105        </activity>
+106        <activity
+106-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:56:9-64:20
+107            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+107-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:57:13-93
+108            android:excludeFromRecents="true"
+108-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:58:13-46
+109            android:exported="false"
+109-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:59:13-37
+110            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+110-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:60:13-72
+111            <intent-filter>
+111-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:61:13-63:29
+112                <action android:name="com.google.android.gms.auth.GOOGLE_SIGN_IN" />
+112-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:62:17-85
+112-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:62:25-82
+113            </intent-filter>
+114        </activity>
+115        <activity
+115-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:66:9-70:81
+116            android:name="com.example.navigram.ui.CreateMemoryActivity"
+116-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:67:13-52
+117            android:exported="false"
+117-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:68:13-37
+118            android:label="Create Memory"
+118-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:69:13-42
+119            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+119-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:70:13-78
+120        <activity
+120-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:71:9-73:40
+121            android:name="com.example.navigram.ui.ui.Navigation"
+121-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:72:13-45
+122            android:exported="false" />
+122-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:73:13-37
+123        <activity
+123-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:74:9-76:40
+124            android:name="com.example.navigram.ui.ui.Gallery"
+124-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:75:13-42
+125            android:exported="false" />
+125-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:76:13-37
+126        <activity
+126-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:77:9-80:64
+127            android:name="com.example.navigram.ui.Dashboard"
+127-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:78:13-41
+128            android:exported="false"
+128-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:79:13-37
+129            android:label="@string/title_activity_dashboard" />
+129-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:80:13-61
+130        <activity
+130-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:81:9-84:54
+131            android:name="com.example.navigram.ui.CameraCapture"
+131-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:82:13-45
+132            android:configChanges="orientation|screenSize|screenLayout"
+132-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:83:13-72
+133            android:screenOrientation="fullSensor" />
+133-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:84:13-51
+134        <activity
+134-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:85:9-87:40
+135            android:name="com.example.navigram.ui.dashboard"
+135-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:86:13-41
+136            android:exported="false" />
+136-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:87:13-37
+137        <activity
+137-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:88:9-90:40
+138            android:name="com.example.navigram.ui.SignUp"
+138-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:89:13-38
+139            android:exported="false" />
+139-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:90:13-37
+140        <activity
+140-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:91:9-94:64
+141            android:name="com.example.navigram.Dashboard"
+141-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:92:13-38
+142            android:exported="false"
+142-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:93:13-37
+143            android:label="@string/title_activity_dashboard" />
+143-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:94:13-61
+144        <activity
+144-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:95:9-98:44
+145            android:name="com.example.navigram.ui.UserDetailsActivity"
+145-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:96:13-51
+146            android:exported="false"
+146-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:97:13-37
+147            android:label="User Profile" />
+147-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:98:13-41
+148        <activity
+148-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:100:9-103:44
+149            android:name="com.example.navigram.ui.Profile.EditProfileActivity"
+149-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:101:13-59
+150            android:exported="false"
+150-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:102:13-37
+151            android:label="Edit Profile" />
+151-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:103:13-41
+152        <activity
+152-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:105:9-108:45
+153            android:name="com.example.navigram.ui.MemoryCreation"
+153-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:106:13-46
+154            android:exported="false"
+154-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:107:13-37
+155            android:label="Create Memory" />
+155-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:108:13-42
+156        <activity
+156-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:110:9-117:20
+157            android:name="com.example.navigram.MainActivity"
+157-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:111:13-41
+158            android:exported="true" >
+158-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:112:13-36
+159            <intent-filter>
+159-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:113:13-116:29
+160                <action android:name="android.intent.action.MAIN" />
+160-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:52:17-69
+160-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:52:25-66
+161
+162                <category android:name="android.intent.category.LAUNCHER" />
+162-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:115:17-77
+162-->D:\School\a Year3 Sem2\IT 342 - System Integ\navigram_MOBILE\app\src\main\AndroidManifest.xml:115:27-74
+163            </intent-filter>
+164        </activity>
+165        <activity
+165-->[com.cloudinary:cloudinary-android-ui:2.3.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\4b58f390bc782fb557d52943139141e0\transformed\cloudinary-android-ui-2.3.1\AndroidManifest.xml:10:9-13:56
+166            android:name="com.cloudinary.android.uploadwidget.ui.UploadWidgetActivity"
+166-->[com.cloudinary:cloudinary-android-ui:2.3.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\4b58f390bc782fb557d52943139141e0\transformed\cloudinary-android-ui-2.3.1\AndroidManifest.xml:11:13-87
+167            android:configChanges="orientation"
+167-->[com.cloudinary:cloudinary-android-ui:2.3.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\4b58f390bc782fb557d52943139141e0\transformed\cloudinary-android-ui-2.3.1\AndroidManifest.xml:12:13-48
+168            android:theme="@style/UploadWidgetTheme" />
+168-->[com.cloudinary:cloudinary-android-ui:2.3.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\4b58f390bc782fb557d52943139141e0\transformed\cloudinary-android-ui-2.3.1\AndroidManifest.xml:13:13-53
+169
+170        <service
+170-->[androidx.camera:camera-camera2:1.4.2] C:\Users\Sting\.gradle\caches\8.10.2\transforms\1633a71f674a5463e14294d605551fcb\transformed\camera-camera2-1.4.2\AndroidManifest.xml:24:9-33:19
+171            android:name="androidx.camera.core.impl.MetadataHolderService"
+171-->[androidx.camera:camera-camera2:1.4.2] C:\Users\Sting\.gradle\caches\8.10.2\transforms\1633a71f674a5463e14294d605551fcb\transformed\camera-camera2-1.4.2\AndroidManifest.xml:25:13-75
+172            android:enabled="false"
+172-->[androidx.camera:camera-camera2:1.4.2] C:\Users\Sting\.gradle\caches\8.10.2\transforms\1633a71f674a5463e14294d605551fcb\transformed\camera-camera2-1.4.2\AndroidManifest.xml:26:13-36
+173            android:exported="false" >
+173-->[androidx.camera:camera-camera2:1.4.2] C:\Users\Sting\.gradle\caches\8.10.2\transforms\1633a71f674a5463e14294d605551fcb\transformed\camera-camera2-1.4.2\AndroidManifest.xml:27:13-37
+174            <meta-data
+174-->[androidx.camera:camera-camera2:1.4.2] C:\Users\Sting\.gradle\caches\8.10.2\transforms\1633a71f674a5463e14294d605551fcb\transformed\camera-camera2-1.4.2\AndroidManifest.xml:30:13-32:89
+175                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+175-->[androidx.camera:camera-camera2:1.4.2] C:\Users\Sting\.gradle\caches\8.10.2\transforms\1633a71f674a5463e14294d605551fcb\transformed\camera-camera2-1.4.2\AndroidManifest.xml:31:17-103
+176                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+176-->[androidx.camera:camera-camera2:1.4.2] C:\Users\Sting\.gradle\caches\8.10.2\transforms\1633a71f674a5463e14294d605551fcb\transformed\camera-camera2-1.4.2\AndroidManifest.xml:32:17-86
+177        </service>
+178
+179        <activity
+179-->[androidx.compose.ui:ui-tooling-android:1.7.8] C:\Users\Sting\.gradle\caches\8.10.2\transforms\4ef236673b292684a0689c36887dd11a\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+180            android:name="androidx.compose.ui.tooling.PreviewActivity"
+180-->[androidx.compose.ui:ui-tooling-android:1.7.8] C:\Users\Sting\.gradle\caches\8.10.2\transforms\4ef236673b292684a0689c36887dd11a\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+181            android:exported="true" /> <!-- Needs to be explicitly declared on P+ -->
+181-->[androidx.compose.ui:ui-tooling-android:1.7.8] C:\Users\Sting\.gradle\caches\8.10.2\transforms\4ef236673b292684a0689c36887dd11a\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+182        <uses-library
+182-->[com.google.android.gms:play-services-maps:19.1.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\222bdf071a9fe92bc34cb513c1004afe\transformed\play-services-maps-19.1.0\AndroidManifest.xml:33:7-86
+183            android:name="org.apache.http.legacy"
+183-->[com.google.android.gms:play-services-maps:19.1.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\222bdf071a9fe92bc34cb513c1004afe\transformed\play-services-maps-19.1.0\AndroidManifest.xml:33:21-58
+184            android:required="false" />
+184-->[com.google.android.gms:play-services-maps:19.1.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\222bdf071a9fe92bc34cb513c1004afe\transformed\play-services-maps-19.1.0\AndroidManifest.xml:33:59-83
+185        <!--
+186            Service handling Google Sign-In user revocation. For apps that do not integrate with
+187            Google Sign-In, this service will never be started.
+188        -->
+189        <service
+189-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c2e37b9efb0de15a36d04bcca99c5fa5\transformed\play-services-auth-20.7.0\AndroidManifest.xml:33:9-37:51
+190            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+190-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c2e37b9efb0de15a36d04bcca99c5fa5\transformed\play-services-auth-20.7.0\AndroidManifest.xml:34:13-89
+191            android:exported="true"
+191-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c2e37b9efb0de15a36d04bcca99c5fa5\transformed\play-services-auth-20.7.0\AndroidManifest.xml:35:13-36
+192            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+192-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c2e37b9efb0de15a36d04bcca99c5fa5\transformed\play-services-auth-20.7.0\AndroidManifest.xml:36:13-107
+193            android:visibleToInstantApps="true" />
+193-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c2e37b9efb0de15a36d04bcca99c5fa5\transformed\play-services-auth-20.7.0\AndroidManifest.xml:37:13-48
+194
+195        <activity
+195-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\ce2732b0201d1d582718728885cb492c\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+196            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+196-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\ce2732b0201d1d582718728885cb492c\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+197            android:exported="false"
+197-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\ce2732b0201d1d582718728885cb492c\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+198            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+198-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\ce2732b0201d1d582718728885cb492c\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+199
+200        <provider
+200-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\e9931d973fbbb2a99652e7bea7e0a425\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+201            android:name="androidx.startup.InitializationProvider"
+201-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\e9931d973fbbb2a99652e7bea7e0a425\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+202            android:authorities="com.example.navigram.androidx-startup"
+202-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\e9931d973fbbb2a99652e7bea7e0a425\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+203            android:exported="false" >
+203-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\e9931d973fbbb2a99652e7bea7e0a425\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+204            <meta-data
+204-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\e9931d973fbbb2a99652e7bea7e0a425\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+205                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+205-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\e9931d973fbbb2a99652e7bea7e0a425\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+206                android:value="androidx.startup" />
+206-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\e9931d973fbbb2a99652e7bea7e0a425\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+207            <meta-data
+207-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:36:13-38:52
+208                android:name="androidx.work.WorkManagerInitializer"
+208-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:37:17-68
+209                android:value="androidx.startup" />
+209-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:38:17-49
+210            <meta-data
+210-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\Sting\.gradle\caches\8.10.2\transforms\02e1659a08c5911e87005f6b24b206c8\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:29:13-31:52
+211                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+211-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\Sting\.gradle\caches\8.10.2\transforms\02e1659a08c5911e87005f6b24b206c8\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:30:17-78
+212                android:value="androidx.startup" />
+212-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\Sting\.gradle\caches\8.10.2\transforms\02e1659a08c5911e87005f6b24b206c8\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:31:17-49
+213            <meta-data
+213-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\99b2033a4775a259af8d8025f88c1639\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+214                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+214-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\99b2033a4775a259af8d8025f88c1639\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+215                android:value="androidx.startup" />
+215-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\99b2033a4775a259af8d8025f88c1639\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+216        </provider>
+217
+218        <service
+218-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:41:9-46:35
+219            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+219-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:42:13-88
+220            android:directBootAware="false"
+220-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:43:13-44
+221            android:enabled="@bool/enable_system_alarm_service_default"
+221-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:44:13-72
+222            android:exported="false" />
+222-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:45:13-37
+223        <service
+223-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:47:9-53:35
+224            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+224-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:48:13-84
+225            android:directBootAware="false"
+225-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:49:13-44
+226            android:enabled="@bool/enable_system_job_service_default"
+226-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:50:13-70
+227            android:exported="true"
+227-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:51:13-36
+228            android:permission="android.permission.BIND_JOB_SERVICE" />
+228-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:52:13-69
+229        <service
+229-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:54:9-59:35
+230            android:name="androidx.work.impl.foreground.SystemForegroundService"
+230-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:55:13-81
+231            android:directBootAware="false"
+231-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:56:13-44
+232            android:enabled="@bool/enable_system_foreground_service_default"
+232-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:57:13-77
+233            android:exported="false" />
+233-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:58:13-37
+234
+235        <receiver
+235-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:61:9-66:35
+236            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+236-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:62:13-88
+237            android:directBootAware="false"
+237-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:63:13-44
+238            android:enabled="true"
+238-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:64:13-35
+239            android:exported="false" />
+239-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:65:13-37
+240        <receiver
+240-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:67:9-77:20
+241            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+241-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:68:13-106
+242            android:directBootAware="false"
+242-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:69:13-44
+243            android:enabled="false"
+243-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:70:13-36
+244            android:exported="false" >
+244-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:71:13-37
+245            <intent-filter>
+245-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:73:13-76:29
+246                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+246-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:17-87
+246-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:25-84
+247                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+247-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:17-90
+247-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:25-87
+248            </intent-filter>
+249        </receiver>
+250        <receiver
+250-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:78:9-88:20
+251            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+251-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:79:13-104
+252            android:directBootAware="false"
+252-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:80:13-44
+253            android:enabled="false"
+253-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:81:13-36
+254            android:exported="false" >
+254-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:82:13-37
+255            <intent-filter>
+255-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:84:13-87:29
+256                <action android:name="android.intent.action.BATTERY_OKAY" />
+256-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:17-77
+256-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:25-74
+257                <action android:name="android.intent.action.BATTERY_LOW" />
+257-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:17-76
+257-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:25-73
+258            </intent-filter>
+259        </receiver>
+260        <receiver
+260-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:89:9-99:20
+261            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+261-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:90:13-104
+262            android:directBootAware="false"
+262-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:91:13-44
+263            android:enabled="false"
+263-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:92:13-36
+264            android:exported="false" >
+264-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:93:13-37
+265            <intent-filter>
+265-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:95:13-98:29
+266                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+266-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:17-83
+266-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:25-80
+267                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+267-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:17-82
+267-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:25-79
+268            </intent-filter>
+269        </receiver>
+270        <receiver
+270-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:100:9-109:20
+271            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+271-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:101:13-103
+272            android:directBootAware="false"
+272-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:102:13-44
+273            android:enabled="false"
+273-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:103:13-36
+274            android:exported="false" >
+274-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:104:13-37
+275            <intent-filter>
+275-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:106:13-108:29
+276                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+276-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:17-79
+276-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:25-76
+277            </intent-filter>
+278        </receiver>
+279        <receiver
+279-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:110:9-121:20
+280            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+280-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:111:13-88
+281            android:directBootAware="false"
+281-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:112:13-44
+282            android:enabled="false"
+282-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:113:13-36
+283            android:exported="false" >
+283-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:114:13-37
+284            <intent-filter>
+284-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:116:13-120:29
+285                <action android:name="android.intent.action.BOOT_COMPLETED" />
+285-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:117:17-79
+285-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:117:25-76
+286                <action android:name="android.intent.action.TIME_SET" />
+286-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:17-73
+286-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:25-70
+287                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+287-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:17-81
+287-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:25-78
+288            </intent-filter>
+289        </receiver>
+290        <receiver
+290-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:122:9-131:20
+291            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+291-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:123:13-99
+292            android:directBootAware="false"
+292-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:124:13-44
+293            android:enabled="@bool/enable_system_alarm_service_default"
+293-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:125:13-72
+294            android:exported="false" >
+294-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:126:13-37
+295            <intent-filter>
+295-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:128:13-130:29
+296                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+296-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:17-98
+296-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:25-95
+297            </intent-filter>
+298        </receiver>
+299        <receiver
+299-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:132:9-142:20
+300            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+300-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:133:13-78
+301            android:directBootAware="false"
+301-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:134:13-44
+302            android:enabled="true"
+302-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:135:13-35
+303            android:exported="true"
+303-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:136:13-36
+304            android:permission="android.permission.DUMP" >
+304-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:137:13-57
+305            <intent-filter>
+305-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:139:13-141:29
+306                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+306-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:17-88
+306-->[androidx.work:work-runtime:2.7.1] C:\Users\Sting\.gradle\caches\8.10.2\transforms\c38c8bf7d277c022484829ea161e2737\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:25-85
+307            </intent-filter>
+308        </receiver>
+309
+310        <uses-library
+310-->[androidx.window:window:1.0.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\26d0f12d57c5f358efd192dc842ac2d3\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+311            android:name="androidx.window.extensions"
+311-->[androidx.window:window:1.0.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\26d0f12d57c5f358efd192dc842ac2d3\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+312            android:required="false" />
+312-->[androidx.window:window:1.0.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\26d0f12d57c5f358efd192dc842ac2d3\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+313        <uses-library
+313-->[androidx.window:window:1.0.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\26d0f12d57c5f358efd192dc842ac2d3\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+314            android:name="androidx.window.sidecar"
+314-->[androidx.window:window:1.0.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\26d0f12d57c5f358efd192dc842ac2d3\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+315            android:required="false" />
+315-->[androidx.window:window:1.0.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\26d0f12d57c5f358efd192dc842ac2d3\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+316
+317        <receiver
+317-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\99b2033a4775a259af8d8025f88c1639\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+318            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+318-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\99b2033a4775a259af8d8025f88c1639\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+319            android:directBootAware="false"
+319-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\99b2033a4775a259af8d8025f88c1639\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+320            android:enabled="true"
+320-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\99b2033a4775a259af8d8025f88c1639\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+321            android:exported="true"
+321-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\99b2033a4775a259af8d8025f88c1639\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+322            android:permission="android.permission.DUMP" >
+322-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\99b2033a4775a259af8d8025f88c1639\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+323            <intent-filter>
+323-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\99b2033a4775a259af8d8025f88c1639\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+324                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+324-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\99b2033a4775a259af8d8025f88c1639\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+324-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\99b2033a4775a259af8d8025f88c1639\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+325            </intent-filter>
+326            <intent-filter>
+326-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\99b2033a4775a259af8d8025f88c1639\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+327                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+327-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\99b2033a4775a259af8d8025f88c1639\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+327-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\99b2033a4775a259af8d8025f88c1639\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+328            </intent-filter>
+329            <intent-filter>
+329-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\99b2033a4775a259af8d8025f88c1639\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+330                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+330-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\99b2033a4775a259af8d8025f88c1639\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+330-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\99b2033a4775a259af8d8025f88c1639\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+331            </intent-filter>
+332            <intent-filter>
+332-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\99b2033a4775a259af8d8025f88c1639\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+333                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+333-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\99b2033a4775a259af8d8025f88c1639\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+333-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Sting\.gradle\caches\8.10.2\transforms\99b2033a4775a259af8d8025f88c1639\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+334            </intent-filter>
+335        </receiver>
+336
+337        <service
+337-->[androidx.room:room-runtime:2.2.5] C:\Users\Sting\.gradle\caches\8.10.2\transforms\81268c374a4dfa6c15f45d065cee1702\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+338            android:name="androidx.room.MultiInstanceInvalidationService"
+338-->[androidx.room:room-runtime:2.2.5] C:\Users\Sting\.gradle\caches\8.10.2\transforms\81268c374a4dfa6c15f45d065cee1702\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+339            android:directBootAware="true"
+339-->[androidx.room:room-runtime:2.2.5] C:\Users\Sting\.gradle\caches\8.10.2\transforms\81268c374a4dfa6c15f45d065cee1702\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+340            android:exported="false" />
+340-->[androidx.room:room-runtime:2.2.5] C:\Users\Sting\.gradle\caches\8.10.2\transforms\81268c374a4dfa6c15f45d065cee1702\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+341    </application>
+342
+343</manifest>
